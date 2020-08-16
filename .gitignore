@@ -423,8 +423,4 @@ ASALocalRun/
 !.localstack/.gitkeep
 
 # Ignore log files
-mySewnet.Vault.Web/logs
-mySewnet.Migration/logs
-*.ncrunchproject
-
-mySewnet.Migration/appsettings.Development.json
+haxzorer.HangfireConsole/logs
