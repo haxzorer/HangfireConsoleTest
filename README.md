@@ -13,3 +13,5 @@ Navigate to the folder `haxzorer.HangfireConsole`, and run `dotnet run`, to star
 In this project, there is a `TestJob` setup, that will never automatically run. 
 To run it, and see the Hangfire Console endless polling issue in action, go to https://localhost:5001/hangfire/recurring and trigger it manually.
 Then, find the job, either in the processing or succeeded list, and watch as the console part of the job report endlessly polls for "new" rows.
+
+![Hangfire Console issue](hangfire-console-issue.gif)
